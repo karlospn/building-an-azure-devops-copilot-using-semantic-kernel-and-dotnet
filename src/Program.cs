@@ -24,7 +24,6 @@ namespace CustomCopilot
             builder.Plugins.AddFromObject(new AzureDevOpsProjectsPlugin(), nameof(AzureDevOpsProjectsPlugin));
             builder.Plugins.AddFromObject(new AzureDevOpsRepositoriesPlugin(), nameof(AzureDevOpsRepositoriesPlugin));
             builder.Plugins.AddFromObject(new AzureDevOpsBranchesPlugin(), nameof(AzureDevOpsBranchesPlugin));
-            builder.Plugins.AddFromObject(new AzureDevOpsUsersPlugin(), nameof(AzureDevOpsUsersPlugin));
             builder.Plugins.AddFromObject(new AzureDevOpsCodeSearchPlugin(), nameof(AzureDevOpsCodeSearchPlugin));
             builder.Plugins.AddFromObject(new AzureDevOpsBuildsPlugin(), nameof(AzureDevOpsBuildsPlugin));
 
